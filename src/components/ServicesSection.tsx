@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion";
 import { ServiceCard } from "@/components/ServiceCard";
-import { ButtonIcon, Code, Lightbulb, LayoutPanelLeft, FileText, Smartphone } from "lucide-react";
+import { Button as LucideButton, Code, Lightbulb, LayoutPanelLeft, FileText, Smartphone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -33,7 +33,7 @@ export function ServicesSection() {
       description: "Professional visual identity including logos, color schemes, and design systems that reflect your personal brand.",
     },
     {
-      icon: ButtonIcon,
+      icon: LucideButton,
       title: "Brand Messaging",
       description: "Clear, consistent messaging that communicates your unique value proposition and resonates with your audience.",
     },
