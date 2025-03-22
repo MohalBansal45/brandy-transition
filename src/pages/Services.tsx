@@ -1,8 +1,9 @@
+
 import { PageTransition } from "@/components/PageTransition";
 import { motion } from "framer-motion";
 import { 
   Lightbulb, Code, FileText, Smartphone, LayoutPanelLeft, 
-  Button as LucideButton, Globe, MessagesSquare, LineChart, Users
+  MessageSquare, Globe, MessagesSquare, LineChart, Users
 } from "lucide-react";
 import { ServiceCard } from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
@@ -60,7 +61,7 @@ const Services = () => {
       description: "Professional visual identity including logos, color schemes, and design systems that reflect your personal brand."
     },
     {
-      icon: LucideButton,
+      icon: MessageSquare,
       title: "Brand Messaging",
       description: "Clear, consistent messaging that communicates your unique value proposition and resonates with your audience."
     },
